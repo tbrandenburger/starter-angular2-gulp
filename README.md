@@ -19,6 +19,7 @@ First time running Error: app.module.ts.js not found (404) - Solution: Change in
 
 ## 3. Debugging
 IntelliJ: It's important to compile the .ts scripts with the IntelliJ Typescript Compiler (Make sure you checked "use tsconfig.json" in the preferences
-- Use the Javascript Debugger (Make sure you installed the chrome extension)
+
+Use the Javascript Debugger (Make sure you installed the chrome extension)
 problem: Todo: the source of the .js.map files are not set correctly through the ts compiler from gulp
  
