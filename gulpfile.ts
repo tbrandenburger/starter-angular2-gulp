@@ -52,12 +52,8 @@ gulp.task("libs", () => {
 });
 
 /**
- * Build the project.
+ * Watch File changes and run compiler and copy files
  */
-gulp.task("build", ['compile', 'resources', 'libs'], () => {
-    console.log("Building the project ...")
-});
-
 gulp.task('watch', function () {
     gulp.watch(["src/**/*.ts"], ['compile']).on('change', function (e) {
         console.log('TypeScript file ' + e.path + ' has been changed. Compiling.');
@@ -66,3 +62,11 @@ gulp.task('watch', function () {
         console.log('Resource file ' + e.path + ' has been changed. Updating.');
     });
 });
+
+/**
+ * Build the project.
+ */
+gulp.task("build", ['compile', 'resources', 'libs'], () => {
+    console.log("Building the project ...")
+});
+
