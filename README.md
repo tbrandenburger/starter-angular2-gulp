@@ -3,7 +3,7 @@ Using Gulp as Building Tool
 
 
 
-## 3. Installation
+## 1. Installation
 ```
 $ git clone https://github.com/tbrandenburger/starter-angular2-gulp
 $ cd starter-angular2-gulp
@@ -14,6 +14,6 @@ $ npm start
 ```
 Go to [http://localhost:3000](http://localhost:3000) in your browser
 
-##Known Issues
+## 2. Known Issues
 First time running Error: app.module.ts.js not found (404) - Solution: Change in app.component.ts something (while server is on watch mode) - the file gets compiled and the app should run.
 
