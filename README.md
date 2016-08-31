@@ -8,6 +8,7 @@ Using Gulp as Building Tool
 $ git clone https://github.com/tbrandenburger/starter-angular2-gulp
 $ cd starter-angular2-gulp
 $ npm install 
+$ (if typings folder not shows up run: $sudo typings install)
 $ npm run clean & npm run build
 $ npm start
 ```
