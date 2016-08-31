@@ -13,3 +13,6 @@ $ npm start
 ```
 Go to [http://localhost:3000](http://localhost:3000) in your browser
 
+##Known Issues
+First time running Error: app.module.ts.js not found (404) - Solution: Change in app.component.ts something (while server is on watch mode) - the file gets compiled and the app should run.
+
